@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- search-bar -->
+  <view class='page-section search-bar'>
+    <text class='city-select'>广州 <text class="iconfont iconarrow-down"></text></text>
+    <icon class='icon-search' type="search" size='14'></icon>
+    <input class="search-input" disabled='' placeholder="查找健身房"/>
+  </view>
+
+  <!-- swiper -->
+  <view class='page-section swiper'>
+    <swiper 
+      indicator-dots="{{indicatorDots}}"
+      indicator-color="#ccc"
+      indicator-active-color="#fff"
+      autoplay="{{autoplay}}" 
+      interval="{{interval}}" 
+      duration="{{duration}}">
+      <block wx:for="{{banners}}" wx:key="*this">
+        <swiper-item class="swiper-item">
+          <image class='swiper-img' src='{{item}}'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+</view>
