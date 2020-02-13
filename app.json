@@ -11,21 +11,26 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/index/index",
-      "text": "首页",
-      "iconPath": "./assets/icons/tab-home.png",
-      "selectedIconPath": "./assets/icons/tab-home-current.png"
-    },{
-      "pagePath": "pages/discover/discover",
-      "text": "发现",
-      "iconPath": "./assets/icons/tab-cart.png",
-      "selectedIconPath": "./assets/icons/tab-cart-current.png"
-    },{
-      "pagePath": "pages/mine/mine",
-      "text": "我的",
-      "iconPath": "./assets/icons/tab-my.png",
-      "selectedIconPath": "./assets/icons/tab-my-current.png"
-    }]
-  }
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "./assets/icons/tab-home.png",
+        "selectedIconPath": "./assets/icons/tab-home-current.png"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现",
+        "iconPath": "./assets/icons/tab-cart.png",
+        "selectedIconPath": "./assets/icons/tab-cart-current.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "./assets/icons/tab-my.png",
+        "selectedIconPath": "./assets/icons/tab-my-current.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
 }
